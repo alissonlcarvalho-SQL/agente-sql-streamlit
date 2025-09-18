@@ -1,0 +1,10 @@
+2025-09-17 16:37:20,683 - Consulta gerada: SELECT TOP 5 * FROM [PlanCapWrk].[dbo].[VW_COBERTURA_FTTH_FULL]
+2025-09-17 16:40:50,508 - Consulta gerada: SELECT TOP 10 * FROM [PlanCapWrk].[dbo].[VW_COBERTURA_FTTH_FULL] ORDER BY id_lote DESC
+2025-09-17 16:49:04,542 - Consulta gerada: SELECT TOP 25 * FROM [PlanCapWrk].[dbo].[VW_COBERTURA_FTTH] ORDER BY infraco DESC
+2025-09-17 17:10:04,410 - Consulta gerada: SELECT TOP 25 * FROM [PlanCapWrk].[dbo].[VW_COBERTURA_FTTH] WHERE [uf] = 'RJ' ORDER BY [infraco] DESC
+2025-09-17 17:18:34,928 - Consulta gerada: SELECT TOP 25 * FROM [PlanCapWrk].[dbo].[VW_COBERTURA_FTTH] WHERE [uf] = 'RJ' ORDER BY [infraco] DESC
+2025-09-17 17:21:54,267 - Consulta gerada: SELECT TOP 25 * FROM [PlanCapWrk].[dbo].[VW_COBERTURA_FTTH] WHERE [uf] = 'RJ' ORDER BY [infraco] DESC
+2025-09-17 17:26:13,193 - Consulta gerada: SELECT TOP 25 * FROM [PlanCapWrk].[dbo].[VW_COBERTURA_FTTH] WHERE [infraco] = 'VTAL' AND [uf] = 'RJ' ORDER BY CAST([hp] AS INT) DESC
+2025-09-17 17:34:34,187 - Consulta gerada: SELECT TOP 50 * FROM [PlanCapWrk].[dbo].[IHS_FECH_AGO_FTTH] WHERE [hp] = 'SIM' AND [sv_blocked_lot] = 'SIM'
+2025-09-17 17:40:07,761 - Consulta gerada: SELECT TOP 50 * FROM [PlanCapWrk].[dbo].[IHS_FECH_AGO_FTTH] WHERE [hp] = 'SIM' AND [sv_blocked_lot] = 'SIM' ORDER BY CAST([sv_client_unit_count] AS INT) DESC
+2025-09-17 17:46:05,936 - Consulta gerada: SELECT TOP 50 * FROM [PlanCapWrk].[dbo].[IHS_FECH_AGO_FTTH] WHERE [hp] = 'SIM' AND [sv_blocked_lot] = 'SIM' ORDER BY CAST([sv_client_unit_count] AS INT) DESC
