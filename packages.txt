@@ -1,2 +1,4 @@
+build-essential
 unixodbc-dev
 msodbcsql18
+mssql-tools18
