@@ -39,7 +39,7 @@ else:
             server = 'snepdtm01v'
             database = 'PlanCapWrk'
             conn_str = (
-                'DRIVER={ODBC Driver 18 for SQL Server};'
+                'DRIVER={ODBC Driver 17 for SQL Server};'
                 f'SERVER={server};'
                 f'DATABASE={database};'
                 'Trusted_Connection=yes;'
