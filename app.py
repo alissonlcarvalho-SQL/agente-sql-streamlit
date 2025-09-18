@@ -38,12 +38,13 @@ else:
         try:
             server = 'snepdtm01v'
             database = 'PlanCapWrk'
+            # String de conexão corrigida para usar f-string e driver v17
             conn_str = (
-                'DRIVER={ODBC Driver 17 for SQL Server};'
+                f'DRIVER={{ODBC Driver 17 for SQL Server}};'
                 f'SERVER={server};'
                 f'DATABASE={database};'
-                'Trusted_Connection=yes;'
-                'TrustServerCertificate=yes;'
+                f'Trusted_Connection=yes;'
+                f'TrustServerCertificate=yes;'
             )
             conn = pyodbc.connect(conn_str)
             return conn
